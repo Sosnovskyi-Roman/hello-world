@@ -366,6 +366,90 @@
 }
 
 /* 9 блок Roman Sosnovskyi[1/1]*/
+ 
+.background_2xT {
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../img/baner.webp);
+    background-size: cover;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    margin-left: 395px;
+    margin-right: 395px;
+
+}
+
+.green-line {
+    width: 3%;
+    height: 3px;
+    background-color: rgb(41, 138, 101);
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-self: center;
+    margin-top: -20px;
+
+}
+
+.section__baner {
+    color: rgb(75, 79, 105);
+    font-weight: 1000;
+    font-size: 60px;
+    padding-bottom: 35px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+@media (min-width: 500px) {
+    .banner__fluid-title {
+        font-size: 80px;
+    }
+}
+
+.component__tittle {
+    color: #6f7490;
+    font-weight: 600;
+    font-size: 19px;
+    padding-bottom: 70px;
+}
+
+.Sambit {
+    color: white;
+    background-color: rgb(32, 218, 103);
+    padding: 16px 40px;
+    border-radius: 5px;
+    text-decoration-line: none;
+}
+
+.popup-bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    display: none;
+}
+
+.popup {
+position: absolute;
+top: 50%;
+left: 50%;
+width: 600px;
+background: #ffffff;
+padding: 20px;
+transform: translate(-50%,-50%);
+padding-top: 60px;
+}
+
+.close-popup {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
 
 /* 10 блок Таня Стащак[1/2]*/
 .faq {
