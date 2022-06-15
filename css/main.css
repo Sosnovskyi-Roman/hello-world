@@ -52,14 +52,16 @@
     flex-direction: row;
     padding: 100px 0px 60px 0px;
 }
+
 .text__block {
     justify-content: space-between;
     align-items: baseline;
-    
+
 }
+
 .order__food {
     color: rgb(41, 138, 101);
-    font-size: 42px; 
+    font-size: 42px;
     font-weight: 800;
     width: 450px;
     margin-left: 60px;
@@ -71,8 +73,8 @@
     width: 8%;
     margin: 20px;
     margin-left: 60px;
-    
-    
+
+
 }
 
 .text__about__order {
@@ -91,13 +93,13 @@
 
 .icon__list-item {
     width: 25px;
-    vertical-align:middle;
+    vertical-align: middle;
     padding-right: 5px;
     margin-bottom: 8px;
 }
 
 .text__mobille-app {
-    font-size:22 px;
+    font-size: 22 px;
     color: #6f7490;
     width: 520px;
     margin: 35px;
@@ -366,10 +368,10 @@
 }
 
 /* 9 блок Roman Sosnovskyi[1/1]*/
- 
+
 .background_2xT {
     display: flex;
-    align-items:center ;
+    align-items: center;
     justify-content: center;
     text-align: center;
     background-image: url(../img/baner.webp);
@@ -424,32 +426,87 @@
     text-decoration-line: none;
 }
 
-.popup-bg {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(0,0,0,0.8);
-    display: none;
+.modal-content {
+    width: 600px;
+    height: 550px;
+    margin:
+        40px auto;
+    background:
+        #6f7490;
+    border:
+        1px solid #6f7490;
+    border-radius: 15px;
+    z-index: index 150;
+}
+.small_green_line-info {
+    display: block;
+    margin: 20px auto 20px auto;
+    width: 10%;
+    height: 3px;
+    background-color: rgb(41, 138, 101);
+    
+
 }
 
-.popup {
-position: absolute;
-top: 50%;
-left: 50%;
-width: 600px;
-background: #ffffff;
-padding: 20px;
-transform: translate(-50%,-50%);
-padding-top: 60px;
+.contacts__form {
+    margin: 2px 1em 0 auto;
+    text-align: center;
+    
+    
 }
 
-.close-popup {
-    position: absolute;
-    top: 30px;
-    right: 30px;
+.input {
+    width: 260px;
+    padding: 5px;
+    margin-bottom: 10px;
+    
+    
 }
+
+.btn-close {
+    margin: 10px 0 0 460px;
+}
+
+.titel-form {
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.text-form {
+    margin-left: auto;
+    margin-right: auto;
+    color: #6f7490;
+
+
+}
+
+.text-form-out {
+    margin-left: auto;
+    margin-right: auto;
+    color: #6f7490;
+    margin-top: -15px;
+    
+}
+
+.sambit-button {
+    color: white;
+    background-color: rgb(32, 218, 103);
+    padding: -16px 1000px;
+    border-radius: 5px;
+    text-decoration-line: none;
+
+
+}
+
+.span-info {
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+
+
 
 /* 10 блок Таня Стащак[1/2]*/
 .faq {
@@ -578,7 +635,7 @@ address a.phone {
     top: 0;
     left: 0;
     background: rgba(250, 249, 249, 0.085);
-    
+
 }
 
 .contacts__form {
@@ -587,6 +644,7 @@ address a.phone {
     align-items: center;
     justify-content: center;
 }
+
 .contacts__form input {
     width: 60%;
     border: 2px solid #0000;
@@ -594,6 +652,7 @@ address a.phone {
     margin-bottom: 30px;
     height: 40px;
 }
+
 .contacts__form input[type="submit"] {
     background: #3DC491;
     color: #ffffff;
